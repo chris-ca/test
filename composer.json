@@ -1,0 +1,27 @@
+{
+    "name": "chris-ca/test",
+    "description": "Test repository for composer & packagist",
+    "type": "yii2-extension",
+    "keywords": ["test321"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Chris Weyland",
+            "email": "github@nextmail.cc"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "codeception/codeception" : "~2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "chris-ca\\testrepo\\": ""
+        },
+        "classmap": [
+            "src/"
+        ]
+    }
+}
